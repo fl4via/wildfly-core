@@ -50,6 +50,7 @@ public class SensitiveTargetAccessConstraintDefinition implements AccessConstrai
     public static final SensitiveTargetAccessConstraintDefinition PATCHING = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.PATCHING);
     public static final SensitiveTargetAccessConstraintDefinition READ_WHOLE_CONFIG = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.READ_WHOLE_CONFIG);
     public static final SensitiveTargetAccessConstraintDefinition SECURITY_DOMAIN = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.SECURITY_DOMAIN);
+    // TODO put an ELYTRON _SECURITY_DOMAIN here or something like that, probably already implemented by the Elytron team
     public static final SensitiveTargetAccessConstraintDefinition SECURITY_DOMAIN_REF = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.SECURITY_DOMAIN_REF);
     public static final SensitiveTargetAccessConstraintDefinition SECURITY_REALM = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.SECURITY_REALM);
     public static final SensitiveTargetAccessConstraintDefinition SECURITY_REALM_REF = new SensitiveTargetAccessConstraintDefinition(SensitivityClassification.SECURITY_REALM_REF);
